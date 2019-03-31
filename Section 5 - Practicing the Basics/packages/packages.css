@@ -1,40 +1,60 @@
 
 main {
-    margin-top: 30px;
+    padding-top: 32px;
 }
 
-.plan {
-    border: 3px solid darkgreen;
-    margin: 10px 0;
-    width: 70%;
-    padding: 20px;
-    background-color: lightyellow;
+.package {
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+    width: 80%;
 }
 
-.plan__link {
+.package__link {
     text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
 }
 
-.plan__link--title {
+.package__link:hover,
+.package__link:active {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    border-color: #ff5454;
+}
+
+.package__link--title {
     color: black;
 }
 
-.plan__link--subtitle {
-    color: gray;
+.package__link--subtitle {
+    color: #979797;
 }
 
-.plan__link--description {
-    color: black;
-    border: 1px solid black;
-    padding: 10px;
+.package__link--description {
+    color: #0e4f1f;
+    border: 1px solid #0e4f1f;
+    padding: 16px;
+    font-size: 20px;
     background-color: white;
 }
 
-.plan.highlighted {
-    background-color: darkgreen;
+#package-plus {
+    background-color: rgba(213, 255, 220, 0.95);
 }
 
-.plan.highlighted .plan__link--title,
-.plan.highlighted .plan__link--subtitle {
+#package-free {
+    background-color: rgba(234, 252, 237, 0.95);
+}
+
+#package-premium {
+    background-color: rgba(14, 79, 31, 0.95);
+}
+
+#package-premium .package__link--title {
     color: white;
+}
+
+#package-premium .package__link--subtitle {
+    color: #bbb;
 }
