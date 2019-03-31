@@ -39,12 +39,19 @@ main {
     background-color: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #package-plus {
     background-color: rgba(213, 255, 220, 0.95);
 }
 
 #package-free {
     background-color: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
 }
 
 #package-premium {
