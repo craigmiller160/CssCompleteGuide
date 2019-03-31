@@ -24,6 +24,10 @@ body {
     color: #0e4f1f;
 }
 
+.button:focus {
+    outline: none;
+}
+
 #product-overview {
     background: url("images/freedom.jpg");
     width: 100%;
