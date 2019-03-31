@@ -106,21 +106,23 @@ body {
     margin: 32px;
 }
 
-.features {
+.key-features__list {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.feature {
+.key-feature {
     display: inline-block;
-    margin: 0 20px;
+    width: 30%;
+    vertical-align: top;
 }
 
-.feature > p {
+.key-feature > p {
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .main-header {
