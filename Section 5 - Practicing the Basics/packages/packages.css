@@ -16,6 +16,18 @@ main {
     border-left: none;
     margin: 16px 0;
     width: 80%;
+    position: relative;
+}
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
 }
 
 .package__link {
